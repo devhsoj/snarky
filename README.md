@@ -13,14 +13,12 @@ npm i
 tsc
 ```
 
-## Setup
+## Configuring
 
-Your .env (or environment) should look something like this:
+Your .env (or environment) should look something like this (this is very basic):
 
 ```text
 OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxx
-DISCORD_CLIENT_ID=xxxxxxxxxxxxxxxxxxxxxx
-DISCORD_CLIENT_SECRET=xxxxxxxxxxxxxxxxxxxxxx
 DISCORD_CLIENT_TOKEN=xxxxxxxxxxxxxxxxxxxxxx
 ```
 

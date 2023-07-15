@@ -11,9 +11,7 @@ const config = {
     },
     discord: {
         client: {
-            id: process.env.DISCORD_CLIENT_ID!,
-            secret: process.env.DISCORD_CLIENT_SECRET!,
-            token: process.env.DISCORD_CLIENT_TOKEN!,
+            token: process.env.DISCORD_CLIENT_TOKEN!
         }
     },
     openai: {

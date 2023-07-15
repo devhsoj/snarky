@@ -16,7 +16,6 @@
     "rules": {
         "indent": "off",
         "@typescript-eslint/indent": ["error", 4],
-        "linebreak-style": ["warn", "windows"],
         "quotes": ["error", "single"],
         "semi": ["error", "always"]
     }

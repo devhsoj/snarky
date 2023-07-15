@@ -1,7 +1,7 @@
 {
     "name": "snarky",
     "version": "0.0.1",
-    "description": "A snarky auto-response bot for Discord.",
+    "description": "A snarky GPT powered auto-response bot for Discord.",
     "main": "dist/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,18 @@
     "author": "Joshua Benfield",
     "license": "MIT",
     "devDependencies": {
-        "@types/node": "^18.16.19"
+        "@types/node": "^18.16.19",
+        "@types/sentiment": "^5.0.1",
+        "@typescript-eslint/eslint-plugin": "^6.0.0",
+        "@typescript-eslint/parser": "^6.0.0",
+        "eslint": "^8.45.0",
+        "nodemon": "^3.0.1"
+    },
+    "dependencies": {
+        "@discordjs/core": "^0.6.0",
+        "@discordjs/rest": "^1.7.1",
+        "@discordjs/ws": "^0.8.3",
+        "dotenv": "^16.3.1",
+        "sentiment": "^5.0.2"
     }
 }
